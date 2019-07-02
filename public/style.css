@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto Slab", serif;
+	background-color: white;
+}
+
+.home {
+	background: url("https://s3.amazonaws.com/tinycards/image/fb8c64ef3f66709cc8cae82ceb30332d");
+	background-size: cover;
+	/* opacity: 0.7; */
+	padding-top: 10%;
+}
+
+.content-inner {
+	padding: 5%;
+	text-align: center;
+	padding-top: 5%;
+}
+
+input {
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: 10px;
+	opacity: 0.7;
+	width: 65%;
+}
+
+button {
+	width: 10%;
+	border-radius: 5px;
+	padding: 8px 0;
+}
+
+input[placeholder] {
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+
+p {
+	color: black;
+	text-align: center;
+	margin-top: -5%;
+	font-size: 80px;
+	font-family: "Swanky and Moo Moo", cursive;
+	font-weight: bold;
+	padding-top: 9%;
+}
+.hi {
+	width: 70px;
+}
