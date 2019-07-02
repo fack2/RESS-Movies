@@ -22,3 +22,7 @@ the input field.
 When the user clicks on the search icon, it should bring out all the books
 written by the specified author and if there are any movies based on the book it
 should return them too.
+
+## Sketch
+![Screenshot from 2019-07-02 11-26-49](https://user-images.githubusercontent.com/47992412/60499527-4ca4ca00-9cc1-11e9-9ec5-76b0cbfffee4.png)
+
