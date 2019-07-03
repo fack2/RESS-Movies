@@ -14,8 +14,7 @@ var name = document.getElementById("searchBar").value;
 var search = document.getElementById("search");
 var list = document.getElementById("list");
 
-search.addEventListener("click", function () {
-	
+search.addEventListener("click", function() {
 	name = searchBar.value;
 	request(`http://www.omdbapi.com/?s=${name}&apikey=9cdd68b6`, result => {
 		var title = result.Search.map(ele => ele.Title);
