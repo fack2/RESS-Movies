@@ -16,11 +16,10 @@ book you are searching for.
 
 ## User Journey:
 
-The user should be able to search for a book by entering its authour's name into
+The user should be able to search for a movie by entering the name into
 the input field.
 
-When the user clicks on the search icon, it should bring out all the books
-written by the specified author and if there are any movies based on the book it
+When the user clicks on the search icon, it should bring out the movie and if there are any books with the same name it
 should return them too.
 
 ## Sketch
