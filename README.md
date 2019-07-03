@@ -6,13 +6,10 @@ book you are searching for.
 ## File structer:
 
 - Public:
-  - HTML
-  - CSS
+  - style.css
   - Images
-- Client:
   - index.js
-- Test:
-  - test.js
+- index.html
 
 ## User Journey:
 
