@@ -22,7 +22,7 @@ search.addEventListener("click", function() {
   name = searchBar.value;
 
   if (name !== "" && /\S/.test(name)) {
-    request(`http://www.omdbapi.com/?t=${name}&apikey=9cdd68b6`, result => {
+    request(`https://www.omdbapi.com/?t=${name}&apikey=9cdd68b6`, result => {
       var title = result.Title;
       var poster = result.Poster;
 
@@ -39,7 +39,7 @@ search.addEventListener("click", function() {
       card.appendChild(filmeTitle);
       bookName = title;
       request(
-        `http://api.nytimes.com/svc/books/v3/reviews.json?title=${bookName}&api-key=pKM6Vxvw7qWRoionxqcDexccXqWDZgAJ`,
+        `https://api.nytimes.com/svc/books/v3/reviews.json?title=${bookName}&api-key=pKM6Vxvw7qWRoionxqcDexccXqWDZgAJ`,
         result => {
           console.log("rs", result);
           var data2 = result.results.map(ele => {
