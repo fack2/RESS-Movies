@@ -7,13 +7,15 @@ function request(url, cb) {
       return cb(data);
     });
 }
-
+var container = document.getElementById("container");
 var list = document.getElementById("list");
 var searchBar = document.getElementById("searchBar");
 var name = document.getElementById("searchBar").value;
 var search = document.getElementById("search");
 var list = document.getElementById("list");
 var list2 = document.getElementById("list2");
+var movies1 = document.getElementById("movies1");
+var book1 = document.getElementById("book1");
 
 search.addEventListener("click", function() {
   list.innerText = "";
@@ -22,7 +24,13 @@ search.addEventListener("click", function() {
   name = searchBar.value;
 
   if (name !== "" && /\S/.test(name)) {
-    request(`http://www.omdbapi.com/?t=${name}&apikey=9cdd68b6`, result => {
+    var movieSection = document.createElement("h2");
+    movieSection.style.textAlign = "center";
+    movieSection.style.marginTop = "15px";
+    movieSection.innerText = "Movies :";
+    movies1.appendChild(movieSection);
+
+    request(`https://www.omdbapi.com/?t=${name}&apikey=9cdd68b6`, result => {
       var title = result.Title;
       var poster = result.Poster;
 
@@ -38,10 +46,16 @@ search.addEventListener("click", function() {
       card.appendChild(img);
       card.appendChild(filmeTitle);
       bookName = title;
+
+      var movieSection = document.createElement("h2");
+      movieSection.style.textAlign = "center";
+      movieSection.style.marginTop = "15px";
+      movieSection.innerText = "Books :";
+      book1.appendChild(movieSection);
+
       request(
-        `http://api.nytimes.com/svc/books/v3/reviews.json?title=${bookName}&api-key=pKM6Vxvw7qWRoionxqcDexccXqWDZgAJ`,
+        `https://api.nytimes.com/svc/books/v3/reviews.json?title=${bookName}&api-key=pKM6Vxvw7qWRoionxqcDexccXqWDZgAJ`,
         result => {
-          console.log("rs", result);
           var data2 = result.results.map(ele => {
             return {
               book_title: ele.book_title,
@@ -49,6 +63,7 @@ search.addEventListener("click", function() {
               summery: ele.summary
             };
           });
+
           data2.forEach(element => {
             var card = document.createElement("div");
             card.classList.add("card");
