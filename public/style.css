@@ -42,13 +42,14 @@ input[placeholder] {
 }
 
 p {
-  color: white;
+  color: darkorange;
   text-align: center;
   margin-top: -5%;
-  font-size: 80px;
-  font-family: "Swanky and Moo Moo", cursive;
+  font-size: 100px;
+  font-family: cursive;
   font-weight: bold;
   padding-top: 9%;
+  text-shadow: black 5px 0px 5px;
 }
 .hi {
   width: 70px;
