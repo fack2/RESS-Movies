@@ -1,106 +1,106 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	font-family: "Roboto Slab", serif;
-	background-color: white;
+  font-family: "Roboto Slab", serif;
+  background-color: white;
 }
 
 html,
 body {
-	height: 100%;
-	margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 .home {
-	background: url("https://www.readersdigest.ca/wp-content/uploads/sites/14/2012/09/movies-made-great-white-north.jpg");
-	background-size: cover;
-	padding-top: 10%;
+  background: url("https://www.readersdigest.ca/wp-content/uploads/sites/14/2012/09/movies-made-great-white-north.jpg");
+  background-size: cover;
+  padding-top: 10%;
 }
 
 .content-inner {
-	padding: 5%;
-	text-align: center;
-	padding-top: 5%;
+  padding: 5%;
+  text-align: center;
+  padding-top: 5%;
 }
 
 input {
-	border: 1px solid black;
-	border-radius: 3px;
-	padding: 10px;
-	opacity: 0.7;
-	width: 65%;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 10px;
+  opacity: 0.7;
+  width: 65%;
 }
 
 button {
-	width: 10%;
-	border-radius: 5px;
-	padding: 8px 0;
+  width: 10%;
+  border-radius: 5px;
+  padding: 8px 0;
 }
 
 input[placeholder] {
-	text-align: center;
-	color: black;
-	font-weight: bold;
+  text-align: center;
+  color: black;
+  font-weight: bold;
 }
 
 p {
-	color: darkorange;
-	text-align: center;
-	margin-top: -5%;
-	font-size: 100px;
-	font-family: cursive;
-	font-weight: bold;
-	padding-top: 9%;
-	text-shadow: black 5px 0px 5px;
+  color: darkorange;
+  text-align: center;
+  margin-top: -5%;
+  font-size: 100px;
+  font-family: cursive;
+  font-weight: bold;
+  padding-top: 9%;
+  text-shadow: black 5px 0px 5px;
 }
 .hi {
-	width: 70px;
+  width: 70px;
 }
 
 .card {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	transition: 0.3s;
-	width: 40%;
-	border-radius: 5px;
-	display: inline-block;
-	margin-left: 4%;
-	margin-top: 4%;
-	text-align: center;
-	padding: 2%;
-	border: 2px solid black;
-	/* height: 200px; */
-	overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+  display: inline-block;
+  margin-left: 4%;
+  margin-top: 4%;
+  text-align: center;
+  padding: 2%;
+  border: 2px solid black;
+  /* height: 200px; */
+  overflow: hidden;
 }
 
 .card:hover {
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-	height: 270px;
-	border: 4px solid #940a0a;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  height: 270px;
+  border: 4px solid #940a0a;
 }
 
 img {
-	border-radius: 5px 5px 0 0;
-	width: 100%;
-	height: 200px;
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: 200px;
 }
 .title {
-	height: 50px;
+  height: 50px;
 }
 
 .container {
-	min-height: 100%;
-	margin-bottom: -50px;
+  min-height: 100%;
+  margin-bottom: -50px;
 }
 
 footer {
-	height: 50px;
+  height: 50px;
 }
 
 .footerText {
-	text-align: center;
-	color: black;
-	font-size: 15px;
+  text-align: center;
+  color: black;
+  font-size: 15px;
 }

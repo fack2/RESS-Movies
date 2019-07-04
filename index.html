@@ -1,52 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>book</title>
-		<link rel="stylesheet" type="text/css" href="public/style.css" />
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-		/>
-	</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RESS Movies</title>
+    <link rel="stylesheet" type="text/css" href="public/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-	<body>
-		<section class="home">
-			<p>Movies</p>
-			<div class="content-inner">
-				<label for="searchBar" style="font-size: 1px"
-					>movie<input
-						id="searchBar"
-						type="text"
-						class="search-bar"
-						placeholder="Enter the movie name here"
-						value=""
-				/></label>
-				<button
-					name="button"
-					aria-hidden="true"
-					role="none"
-					id="search"
-					type="submit"
-				>
-					<i class="fa fa-search"></i>
-				</button>
-			</div>
-		</section>
-		<section class="container">
-      
-			<section>
-				<ul id="list"></ul>
-			</section>
-			<section>
-				<ul id="list2"></ul>
-			</section>
-		</section>
+  <body>
+    <section class="home">
+      <p>Movies</p>
+      <div class="content-inner">
+        <label for="searchBar" style="font-size: 1px"
+          >movie<input
+            id="searchBar"
+            type="text"
+            class="search-bar"
+            placeholder="Enter the movie name here"
+            value=""
+        /></label>
+        <button
+          name="button"
+          aria-hidden="true"
+          role="none"
+          id="search"
+          type="submit"
+        >
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+    </section>
 
-		<footer>
-			<p class="footerText">copy right 2019</p>
-		</footer>
-		<script type="text/javascript" src="public/index.js"></script>
-	</body>
+    <section id="container">
+      <div id="movies1"></div>
+      <section>
+        <ul id="list"></ul>
+      </section>
+
+      <section>
+        <div id="book1"></div>
+        <ul id="list2"></ul>
+      </section>
+    </section>
+
+    <script type="text/javascript" src="public/index.js"></script>
+  </body>
 </html>
