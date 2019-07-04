@@ -39,7 +39,7 @@ search.addEventListener("click", function() {
       var img = document.createElement("img");
       img.setAttribute("src", poster);
       var filmeTitle = document.createElement("h4");
-      filmeTitle.innerHTML = title;
+      filmeTitle.innerText = title;
       filmeTitle.classList.add("title");
 
       list.appendChild(card);
